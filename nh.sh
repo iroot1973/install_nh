@@ -19,18 +19,18 @@ echo "##  88       Y8b d8'          '8b 888888888 88  ##"
 echo "##                                              ##"
 echo "################### NetHunter ####################"
 echo
-pm install /sdcard/install_nh/BlueNMEA.apk
-pm install /sdcard/install_nh/cSploit-release.apk
-pm install /sdcard/install_nh/Drivedroid.apk
-pm install /sdcard/install_nh/Hackerskeyboard.apk
-pm install /sdcard/install_nh/OpenVPN.apk
-pm install /sdcard/install_nh/RFAnalyzer.apk
-pm install /sdcard/install_nh/RouterKeygen.apk
-pm install /sdcard/install_nh/Shodan.apk
-pm install /sdcard/install_nh/Term-nh.apk
-pm install /sdcard/install_nh/USBKeyboard.apk
-pm install /sdcard/install_nh/VNC-nh.apk
-pm install /sdcard/install_nh/nethunter.apk
+pm install /sdcard/install_nh-master/BlueNMEA.apk
+pm install /sdcard/install_nh-master/cSploit-release.apk
+pm install /sdcard/install_nh-master/Drivedroid.apk
+pm install /sdcard/install_nh-master/Hackerskeyboard.apk
+pm install /sdcard/install_nh-master/OpenVPN.apk
+pm install /sdcard/install_nh-master/RFAnalyzer.apk
+pm install /sdcard/install_nh-master/RouterKeygen.apk
+pm install /sdcard/install_nh-master/Shodan.apk
+pm install /sdcard/install_nh-master/Term-nh.apk
+pm install /sdcard/install_nh-master/USBKeyboard.apk
+pm install /sdcard/install_nh-master/VNC-nh.apk
+pm install /sdcard/install_nh-master/nethunter.apk
 am start -a android.intent.action.MAIN -n com.offsec.nethunter/.AppNavHomeActivity
 sleep 50
 am force-stop com.offsec.nethunter
