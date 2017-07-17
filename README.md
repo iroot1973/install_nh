@@ -25,7 +25,7 @@ Install Instructions:
 * Extract it to the root of your sdcard or internal memory
 * Open the terminal emulator app
 * Type "su" and give root permissions
-* Type "sh /sdcard/install_nh/nh.sh"
+* Type "sh /sdcard/install_nh-master/nh.sh"
 * Wait until the Nethunter App opens and then give root permissions
 * Wait until the Nethunter app close (it closes automatically and may take 1~2 minutes to close)
 * Then you will probably see some errors in the terminal once the Nethunter App closes, but it's normal just wait until you can type the next command
