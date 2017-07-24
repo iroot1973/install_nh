@@ -3,7 +3,7 @@
 echo -----------------------------------------
 echo ------ Made By:madScript, Gongas99 ------
 echo ------- Kali NetHunter Installer --------
-echo ------------------v1.4-------------------
+echo ------------------v1.5-------------------
 echo -----------------------------------------
 echo
 echo "##################################################"
@@ -93,5 +93,8 @@ cp /data/data/com.offsec.nethunter/files/scripts/stop-ssh /system/bin
 cp /data/data/com.offsec.nethunter/files/scripts/stop-vpn /system/bin
 cp /data/data/com.offsec.nethunter/files/scripts/stop-web /system/bin
 sleep 3
+echo "Cleaning up..."
+rm -r /data/local/nhsystem/kali-armhf
+sleep 2
 echo "Now open the NetHunter App and install Chroot"
 sleep 2
