@@ -32,7 +32,7 @@ pm install /sdcard/install_nh-1.5/USBKeyboard.apk
 pm install /sdcard/install_nh-1.5/VNC-nh.apk
 pm install /sdcard/install_nh-1.5/nethunter.apk
 am start -a android.intent.action.MAIN -n com.offsec.nethunter/.AppNavHomeActivity
-sleep 50
+sleep 37
 am force-stop com.offsec.nethunter
 sleep 5
 mount -o rw,remount /system
