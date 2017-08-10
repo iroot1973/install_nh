@@ -3,7 +3,7 @@
 echo -----------------------------------------
 echo ----------- Made By:madScript -----------
 echo ------- Kali NetHunter Installer --------
-echo ------------------v1.6-------------------
+echo ------------------v1.7-------------------
 echo -----------------------------------------
 echo
 echo "##################################################"
@@ -19,18 +19,18 @@ echo "##  88       Y8b d8'          '8b 888888888 88  ##"
 echo "##                                              ##"
 echo "################### NetHunter ####################"
 echo
-pm install /sdcard/install_nh-1.5/BlueNMEA.apk
-pm install /sdcard/install_nh-1.5/cSploit-release.apk
-pm install /sdcard/install_nh-1.5/Drivedroid.apk
-pm install /sdcard/install_nh-1.5/Hackerskeyboard.apk
-pm install /sdcard/install_nh-1.5/OpenVPN.apk
-pm install /sdcard/install_nh-1.5/RFAnalyzer.apk
-pm install /sdcard/install_nh-1.5/RouterKeygen.apk
-pm install /sdcard/install_nh-1.5/Shodan.apk
-pm install /sdcard/install_nh-1.5/Term-nh.apk
-pm install /sdcard/install_nh-1.5/USBKeyboard.apk
-pm install /sdcard/install_nh-1.5/VNC-nh.apk
-pm install /sdcard/install_nh-1.5/nethunter.apk
+pm install /sdcard/install_nh-master/BlueNMEA.apk
+pm install /sdcard/install_nh-master/cSploit-release.apk
+pm install /sdcard/install_nh-master/Drivedroid.apk
+pm install /sdcard/install_nh-master/Hackerskeyboard.apk
+pm install /sdcard/install_nh-master/OpenVPN.apk
+pm install /sdcard/install_nh-master/RFAnalyzer.apk
+pm install /sdcard/install_nh-master/RouterKeygen.apk
+pm install /sdcard/install_nh-master/Shodan.apk
+pm install /sdcard/install_nh-master/Term-nh.apk
+pm install /sdcard/install_nh-master/USBKeyboard.apk
+pm install /sdcard/install_nh-master/VNC-nh.apk
+pm install /sdcard/install_nh-master/nethunter.apk
 am start -a android.intent.action.MAIN -n com.offsec.nethunter/.AppNavHomeActivity
 sleep 37
 am force-stop com.offsec.nethunter
